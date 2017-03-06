@@ -1,0 +1,135 @@
+{
+  "name": "substance-abuse",
+  "datapackage_version": "1.0-beta.18",
+  "title": "Substance-Abuse",
+  "description": "Mental Health and Substance Abuse Treatment Admissions reports the number and rate of admissions to Mental Health and Substance Abuse programs.",
+  "version": "1.0",
+  "licenses": [{
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  }],
+  "sources": [{
+    "name": "ctdmhas",
+    "web": ""
+  }],
+  "author":[ {
+    "name": "Jenna Daly",
+    "email": "jdaly@ctdata.org",
+    "web": "http://ctdata.org"
+  }],
+  "contributor": [],
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Town",
+            "type": "string",
+            "dimension": false
+          },
+          {
+            "name": "FIPS",
+            "type": "string",
+            "dimension": false
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "dimension": false
+          },
+          {
+            "name": "Measure Type",
+            "type": "string",
+            "dimension": true
+          },
+          {
+            "name": "Variable",
+            "type": "string",
+            "dimension": true
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "dimension": false
+          }
+        ]
+      }
+    }
+  ],
+  "last_modified": "03/06/17",
+  "ckan_extras": {
+    "full_description": {
+      "ckan_name": "Full Description",
+      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number and proportion of admissions for such Mental Health and Substance Abuse programs, the number of individuals admitted for both types of programs, as well as the total number of such admissions. Data is also available detailing the rate of admissions per 10,000 people in the population. Substance Abuse treatment admissions include admissions to both public and private programs. Mental Health Admission include only state funded or operated programs. All data is for residents 18 and older. Data is available for each town and for the state as a whole.",
+      "type": "string",
+    },
+    "suppression": {
+      "ckan_name": "Suppression",
+      "value": "",
+      "type": "string"
+    },
+    "technical_notes": {
+      "ckan_name": "Technical Notes",
+      "value": "Years in this dataset reflect calendar years.",
+      "type": "string",
+    },
+    "domain": {
+      "ckan_name": "Domain",
+      "value": "Health",
+      "type": "string",
+    },
+    "subdomain": {
+      "ckan_name": "Subdomain",
+      "value": "Mental Health",
+      "type": "string",
+    },
+    "geography": {
+      "ckan_name": "Geography",
+      "value": "Town",
+      "type": "string",
+      "constraints": {
+        "enum": ["Town", "County", "Town/County", "District", "Other"]
+      }
+    },
+    "frequency": {
+      "ckan_name": "Frequency",
+      "value": "Annual",
+      "type": "string"
+    },
+    "years_in_catalog": {
+      "ckan_name": "Years in Catalog",
+      "value": [],
+      "type": "array",
+    },
+    "latest_year": {
+      "ckan_name": "Latest Year Available",
+      "value": "2014",
+      "type": "string",
+    },
+    "disabled_views": {
+      "ckan_name": "Disabled Views",
+      "value": [],
+      "type": "array",
+      "constraings": {
+        "enum": ["map", "table", "bar", "line"]
+      }
+    },
+    "units": {
+      "ckan_name": "Units",
+      "value": {
+        "Number": "",
+        "Percent": "%"
+      }
+    },
+    "default": {},
+  },
+  "spot_tests": [],
+  "dimension_groups": [
+    {'Measure Type': ''},
+    {'Variable': ''}
+  ]
+}

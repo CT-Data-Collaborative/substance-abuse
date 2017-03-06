@@ -1,0 +1,681 @@
+"Town","FIPS","Year","Variable","Admission Type","Measure Type","Value"
+"Andover","0901301080","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Andover","0901301080","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Andover","0901301080","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Andover","0901301080","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Ansonia","0900901220","2013","DMHAS Admissions","Substance Abuse","Number",155
+"Ansonia","0900901220","2014","DMHAS Admissions","Substance Abuse","Number",396
+"Ansonia","0900901220","2015","DMHAS Admissions","Substance Abuse","Number",395
+"Ansonia","0900901220","2016","DMHAS Admissions","Substance Abuse","Number",182
+"Ashford","0901501430","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Ashford","0901501430","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Ashford","0901501430","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Ashford","0901501430","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Avon","0900302060","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Avon","0900302060","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Avon","0900302060","2015","DMHAS Admissions","Substance Abuse","Number",40
+"Avon","0900302060","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Barkhamsted","0900502760","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Barkhamsted","0900502760","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Barkhamsted","0900502760","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Barkhamsted","0900502760","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Beacon Falls","0900903250","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Beacon Falls","0900903250","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Beacon Falls","0900903250","2015","DMHAS Admissions","Substance Abuse","Number",48
+"Beacon Falls","0900903250","2016","DMHAS Admissions","Substance Abuse","Number",22
+"Berlin","0900304300","2013","DMHAS Admissions","Substance Abuse","Number",62
+"Berlin","0900304300","2014","DMHAS Admissions","Substance Abuse","Number",167
+"Berlin","0900304300","2015","DMHAS Admissions","Substance Abuse","Number",190
+"Berlin","0900304300","2016","DMHAS Admissions","Substance Abuse","Number",97
+"Bethany","0900904580","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bethany","0900904580","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Bethany","0900904580","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Bethany","0900904580","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bethel","0900104720","2013","DMHAS Admissions","Substance Abuse","Number",88
+"Bethel","0900104720","2014","DMHAS Admissions","Substance Abuse","Number",159
+"Bethel","0900104720","2015","DMHAS Admissions","Substance Abuse","Number",218
+"Bethel","0900104720","2016","DMHAS Admissions","Substance Abuse","Number",123
+"Bethlehem","0900504930","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bethlehem","0900504930","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bethlehem","0900504930","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bethlehem","0900504930","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bloomfield","0900305910","2013","DMHAS Admissions","Substance Abuse","Number",70
+"Bloomfield","0900305910","2014","DMHAS Admissions","Substance Abuse","Number",122
+"Bloomfield","0900305910","2015","DMHAS Admissions","Substance Abuse","Number",134
+"Bloomfield","0900305910","2016","DMHAS Admissions","Substance Abuse","Number",74
+"Bolton","0901306260","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bolton","0901306260","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bolton","0901306260","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bolton","0901306260","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bozrah","0901106820","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Bozrah","0901106820","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Bozrah","0901106820","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Bozrah","0901106820","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Branford","0900907310","2013","DMHAS Admissions","Substance Abuse","Number",165
+"Branford","0900907310","2014","DMHAS Admissions","Substance Abuse","Number",380
+"Branford","0900907310","2015","DMHAS Admissions","Substance Abuse","Number",332
+"Branford","0900907310","2016","DMHAS Admissions","Substance Abuse","Number",172
+"Bridgeport","0900108070","2013","DMHAS Admissions","Substance Abuse","Number",2388
+"Bridgeport","0900108070","2014","DMHAS Admissions","Substance Abuse","Number",4998
+"Bridgeport","0900108070","2015","DMHAS Admissions","Substance Abuse","Number",4932
+"Bridgeport","0900108070","2016","DMHAS Admissions","Substance Abuse","Number",2526
+"Bridgewater","0900508210","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bridgewater","0900508210","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bridgewater","0900508210","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bridgewater","0900508210","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Bristol","0900308490","2013","DMHAS Admissions","Substance Abuse","Number",622
+"Bristol","0900308490","2014","DMHAS Admissions","Substance Abuse","Number",1374
+"Bristol","0900308490","2015","DMHAS Admissions","Substance Abuse","Number",1484
+"Bristol","0900308490","2016","DMHAS Admissions","Substance Abuse","Number",843
+"Brookfield","0900108980","2013","DMHAS Admissions","Substance Abuse","Number",59
+"Brookfield","0900108980","2014","DMHAS Admissions","Substance Abuse","Number",108
+"Brookfield","0900108980","2015","DMHAS Admissions","Substance Abuse","Number",103
+"Brookfield","0900108980","2016","DMHAS Admissions","Substance Abuse","Number",63
+"Brooklyn","0901509190","2013","DMHAS Admissions","Substance Abuse","Number",82
+"Brooklyn","0901509190","2014","DMHAS Admissions","Substance Abuse","Number",130
+"Brooklyn","0901509190","2015","DMHAS Admissions","Substance Abuse","Number",39
+"Brooklyn","0901509190","2016","DMHAS Admissions","Substance Abuse","Number",30
+"Burlington","0900310100","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Burlington","0900310100","2014","DMHAS Admissions","Substance Abuse","Number",31
+"Burlington","0900310100","2015","DMHAS Admissions","Substance Abuse","Number",15
+"Burlington","0900310100","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canaan","0900510940","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canaan","0900510940","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canaan","0900510940","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canaan","0900510940","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canterbury","0901512130","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canterbury","0901512130","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canterbury","0901512130","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canterbury","0901512130","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canton","0900312270","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Canton","0900312270","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canton","0900312270","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Canton","0900312270","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chaplin","0901513810","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chaplin","0901513810","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chaplin","0901513810","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Chaplin","0901513810","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Cheshire","0900914160","2013","DMHAS Admissions","Substance Abuse","Number",38
+"Cheshire","0900914160","2014","DMHAS Admissions","Substance Abuse","Number",160
+"Cheshire","0900914160","2015","DMHAS Admissions","Substance Abuse","Number",165
+"Cheshire","0900914160","2016","DMHAS Admissions","Substance Abuse","Number",68
+"Chester","0900714300","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chester","0900714300","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chester","0900714300","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Chester","0900714300","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Clinton","0900715350","2013","DMHAS Admissions","Substance Abuse","Number",35
+"Clinton","0900715350","2014","DMHAS Admissions","Substance Abuse","Number",81
+"Clinton","0900715350","2015","DMHAS Admissions","Substance Abuse","Number",89
+"Clinton","0900715350","2016","DMHAS Admissions","Substance Abuse","Number",39
+"Colchester","0901115910","2013","DMHAS Admissions","Substance Abuse","Number",126
+"Colchester","0901115910","2014","DMHAS Admissions","Substance Abuse","Number",275
+"Colchester","0901115910","2015","DMHAS Admissions","Substance Abuse","Number",249
+"Colchester","0901115910","2016","DMHAS Admissions","Substance Abuse","Number",112
+"Colebrook","0900516050","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Colebrook","0900516050","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Colebrook","0900516050","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Colebrook","0900516050","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Columbia","0901316400","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Columbia","0901316400","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Columbia","0901316400","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Columbia","0901316400","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Connecticut","09","2013","DMHAS Admissions","Substance Abuse","Number",26623
+"Connecticut","09","2014","DMHAS Admissions","Substance Abuse","Number",57584
+"Connecticut","09","2015","DMHAS Admissions","Substance Abuse","Number",57445
+"Connecticut","09","2016","DMHAS Admissions","Substance Abuse","Number",29092
+"Cornwall","0900517240","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Cornwall","0900517240","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Cornwall","0900517240","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Cornwall","0900517240","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Coventry","0901317800","2013","DMHAS Admissions","Substance Abuse","Number",48
+"Coventry","0901317800","2014","DMHAS Admissions","Substance Abuse","Number",102
+"Coventry","0901317800","2015","DMHAS Admissions","Substance Abuse","Number",103
+"Coventry","0901317800","2016","DMHAS Admissions","Substance Abuse","Number",35
+"Cromwell","0900718080","2013","DMHAS Admissions","Substance Abuse","Number",28
+"Cromwell","0900718080","2014","DMHAS Admissions","Substance Abuse","Number",135
+"Cromwell","0900718080","2015","DMHAS Admissions","Substance Abuse","Number",123
+"Cromwell","0900718080","2016","DMHAS Admissions","Substance Abuse","Number",95
+"Danbury","0900118500","2013","DMHAS Admissions","Substance Abuse","Number",644
+"Danbury","0900118500","2014","DMHAS Admissions","Substance Abuse","Number",1407
+"Danbury","0900118500","2015","DMHAS Admissions","Substance Abuse","Number",1412
+"Danbury","0900118500","2016","DMHAS Admissions","Substance Abuse","Number",791
+"Darien","0900118850","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Darien","0900118850","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Darien","0900118850","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Darien","0900118850","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Deep River","0900719130","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Deep River","0900719130","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Deep River","0900719130","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Deep River","0900719130","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Derby","0900919550","2013","DMHAS Admissions","Substance Abuse","Number",93
+"Derby","0900919550","2014","DMHAS Admissions","Substance Abuse","Number",142
+"Derby","0900919550","2015","DMHAS Admissions","Substance Abuse","Number",215
+"Derby","0900919550","2016","DMHAS Admissions","Substance Abuse","Number",131
+"Durham","0900720810","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Durham","0900720810","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Durham","0900720810","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Durham","0900720810","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Eastford","0901521860","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Eastford","0901521860","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Eastford","0901521860","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Eastford","0901521860","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Granby","0900322070","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Granby","0900322070","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Granby","0900322070","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Granby","0900322070","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Haddam","0900722280","2013","DMHAS Admissions","Substance Abuse","Number",29
+"East Haddam","0900722280","2014","DMHAS Admissions","Substance Abuse","Number",28
+"East Haddam","0900722280","2015","DMHAS Admissions","Substance Abuse","Number",21
+"East Haddam","0900722280","2016","DMHAS Admissions","Substance Abuse","Number",42
+"East Hampton","0900722490","2013","DMHAS Admissions","Substance Abuse","Number",81
+"East Hampton","0900722490","2014","DMHAS Admissions","Substance Abuse","Number",100
+"East Hampton","0900722490","2015","DMHAS Admissions","Substance Abuse","Number",124
+"East Hampton","0900722490","2016","DMHAS Admissions","Substance Abuse","Number",73
+"East Hartford","0900322630","2013","DMHAS Admissions","Substance Abuse","Number",493
+"East Hartford","0900322630","2014","DMHAS Admissions","Substance Abuse","Number",863
+"East Hartford","0900322630","2015","DMHAS Admissions","Substance Abuse","Number",696
+"East Hartford","0900322630","2016","DMHAS Admissions","Substance Abuse","Number",325
+"East Haven","0900922910","2013","DMHAS Admissions","Substance Abuse","Number",303
+"East Haven","0900922910","2014","DMHAS Admissions","Substance Abuse","Number",639
+"East Haven","0900922910","2015","DMHAS Admissions","Substance Abuse","Number",624
+"East Haven","0900922910","2016","DMHAS Admissions","Substance Abuse","Number",340
+"East Lyme","0901123400","2013","DMHAS Admissions","Substance Abuse","Number",137
+"East Lyme","0901123400","2014","DMHAS Admissions","Substance Abuse","Number",238
+"East Lyme","0901123400","2015","DMHAS Admissions","Substance Abuse","Number",188
+"East Lyme","0901123400","2016","DMHAS Admissions","Substance Abuse","Number",98
+"Easton","0900123890","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Easton","0900123890","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Easton","0900123890","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Easton","0900123890","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"East Windsor","0900324800","2013","DMHAS Admissions","Substance Abuse","Number",52
+"East Windsor","0900324800","2014","DMHAS Admissions","Substance Abuse","Number",75
+"East Windsor","0900324800","2015","DMHAS Admissions","Substance Abuse","Number",102
+"East Windsor","0900324800","2016","DMHAS Admissions","Substance Abuse","Number",38
+"Ellington","0901325360","2013","DMHAS Admissions","Substance Abuse","Number",26
+"Ellington","0901325360","2014","DMHAS Admissions","Substance Abuse","Number",54
+"Ellington","0901325360","2015","DMHAS Admissions","Substance Abuse","Number",32
+"Ellington","0901325360","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Enfield","0900325990","2013","DMHAS Admissions","Substance Abuse","Number",393
+"Enfield","0900325990","2014","DMHAS Admissions","Substance Abuse","Number",739
+"Enfield","0900325990","2015","DMHAS Admissions","Substance Abuse","Number",760
+"Enfield","0900325990","2016","DMHAS Admissions","Substance Abuse","Number",294
+"Essex","0900726270","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Essex","0900726270","2014","DMHAS Admissions","Substance Abuse","Number",25
+"Essex","0900726270","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Essex","0900726270","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Fairfield","0900126620","2013","DMHAS Admissions","Substance Abuse","Number",124
+"Fairfield","0900126620","2014","DMHAS Admissions","Substance Abuse","Number",224
+"Fairfield","0900126620","2015","DMHAS Admissions","Substance Abuse","Number",212
+"Fairfield","0900126620","2016","DMHAS Admissions","Substance Abuse","Number",122
+"Farmington","0900327600","2013","DMHAS Admissions","Substance Abuse","Number",47
+"Farmington","0900327600","2014","DMHAS Admissions","Substance Abuse","Number",84
+"Farmington","0900327600","2015","DMHAS Admissions","Substance Abuse","Number",121
+"Farmington","0900327600","2016","DMHAS Admissions","Substance Abuse","Number",67
+"Franklin","0901129910","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Franklin","0901129910","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Franklin","0901129910","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Franklin","0901129910","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Glastonbury","0900331240","2013","DMHAS Admissions","Substance Abuse","Number",80
+"Glastonbury","0900331240","2014","DMHAS Admissions","Substance Abuse","Number",216
+"Glastonbury","0900331240","2015","DMHAS Admissions","Substance Abuse","Number",160
+"Glastonbury","0900331240","2016","DMHAS Admissions","Substance Abuse","Number",101
+"Goshen","0900532290","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Goshen","0900532290","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Goshen","0900532290","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Goshen","0900532290","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Granby","0900332640","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Granby","0900332640","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Granby","0900332640","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Granby","0900332640","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Greenwich","0900133620","2013","DMHAS Admissions","Substance Abuse","Number",65
+"Greenwich","0900133620","2014","DMHAS Admissions","Substance Abuse","Number",137
+"Greenwich","0900133620","2015","DMHAS Admissions","Substance Abuse","Number",146
+"Greenwich","0900133620","2016","DMHAS Admissions","Substance Abuse","Number",72
+"Griswold","0901133900","2013","DMHAS Admissions","Substance Abuse","Number",191
+"Griswold","0901133900","2014","DMHAS Admissions","Substance Abuse","Number",322
+"Griswold","0901133900","2015","DMHAS Admissions","Substance Abuse","Number",339
+"Griswold","0901133900","2016","DMHAS Admissions","Substance Abuse","Number",159
+"Groton","0901134250","2013","DMHAS Admissions","Substance Abuse","Number",220
+"Groton","0901134250","2014","DMHAS Admissions","Substance Abuse","Number",507
+"Groton","0901134250","2015","DMHAS Admissions","Substance Abuse","Number",430
+"Groton","0901134250","2016","DMHAS Admissions","Substance Abuse","Number",228
+"Guilford","0900934950","2013","DMHAS Admissions","Substance Abuse","Number",41
+"Guilford","0900934950","2014","DMHAS Admissions","Substance Abuse","Number",77
+"Guilford","0900934950","2015","DMHAS Admissions","Substance Abuse","Number",107
+"Guilford","0900934950","2016","DMHAS Admissions","Substance Abuse","Number",54
+"Haddam","0900735230","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Haddam","0900735230","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Haddam","0900735230","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Haddam","0900735230","2016","DMHAS Admissions","Substance Abuse","Number",17
+"Hamden","0900935650","2013","DMHAS Admissions","Substance Abuse","Number",266
+"Hamden","0900935650","2014","DMHAS Admissions","Substance Abuse","Number",644
+"Hamden","0900935650","2015","DMHAS Admissions","Substance Abuse","Number",571
+"Hamden","0900935650","2016","DMHAS Admissions","Substance Abuse","Number",281
+"Hampton","0901536000","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hampton","0901536000","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hampton","0901536000","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hampton","0901536000","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hartford","0900337070","2013","DMHAS Admissions","Substance Abuse","Number",3313
+"Hartford","0900337070","2014","DMHAS Admissions","Substance Abuse","Number",6789
+"Hartford","0900337070","2015","DMHAS Admissions","Substance Abuse","Number",6928
+"Hartford","0900337070","2016","DMHAS Admissions","Substance Abuse","Number",3193
+"Hartland","0900337140","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hartland","0900337140","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hartland","0900337140","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hartland","0900337140","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Harwinton","0900537280","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Harwinton","0900537280","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Harwinton","0900537280","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Harwinton","0900537280","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Hebron","0901337910","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Hebron","0901337910","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Hebron","0901337910","2015","DMHAS Admissions","Substance Abuse","Number",28
+"Hebron","0901337910","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Kent","0900540290","2013","DMHAS Admissions","Substance Abuse","Number",23
+"Kent","0900540290","2014","DMHAS Admissions","Substance Abuse","Number",17
+"Kent","0900540290","2015","DMHAS Admissions","Substance Abuse","Number",15
+"Kent","0900540290","2016","DMHAS Admissions","Substance Abuse","Number",22
+"Killingly","0901540500","2013","DMHAS Admissions","Substance Abuse","Number",189
+"Killingly","0901540500","2014","DMHAS Admissions","Substance Abuse","Number",413
+"Killingly","0901540500","2015","DMHAS Admissions","Substance Abuse","Number",454
+"Killingly","0901540500","2016","DMHAS Admissions","Substance Abuse","Number",199
+"Killingworth","0900740710","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Killingworth","0900740710","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Killingworth","0900740710","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Killingworth","0900740710","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lebanon","0901142390","2013","DMHAS Admissions","Substance Abuse","Number",77
+"Lebanon","0901142390","2014","DMHAS Admissions","Substance Abuse","Number",225
+"Lebanon","0901142390","2015","DMHAS Admissions","Substance Abuse","Number",217
+"Lebanon","0901142390","2016","DMHAS Admissions","Substance Abuse","Number",103
+"Ledyard","0901142600","2013","DMHAS Admissions","Substance Abuse","Number",28
+"Ledyard","0901142600","2014","DMHAS Admissions","Substance Abuse","Number",129
+"Ledyard","0901142600","2015","DMHAS Admissions","Substance Abuse","Number",88
+"Ledyard","0901142600","2016","DMHAS Admissions","Substance Abuse","Number",53
+"Lisbon","0901143230","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lisbon","0901143230","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lisbon","0901143230","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lisbon","0901143230","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Litchfield","0900543370","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Litchfield","0900543370","2014","DMHAS Admissions","Substance Abuse","Number",67
+"Litchfield","0900543370","2015","DMHAS Admissions","Substance Abuse","Number",65
+"Litchfield","0900543370","2016","DMHAS Admissions","Substance Abuse","Number",22
+"Lyme","0901144210","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lyme","0901144210","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lyme","0901144210","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Lyme","0901144210","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Madison","0900944560","2013","DMHAS Admissions","Substance Abuse","Number",22
+"Madison","0900944560","2014","DMHAS Admissions","Substance Abuse","Number",76
+"Madison","0900944560","2015","DMHAS Admissions","Substance Abuse","Number",65
+"Madison","0900944560","2016","DMHAS Admissions","Substance Abuse","Number",30
+"Manchester","0900344700","2013","DMHAS Admissions","Substance Abuse","Number",376
+"Manchester","0900344700","2014","DMHAS Admissions","Substance Abuse","Number",756
+"Manchester","0900344700","2015","DMHAS Admissions","Substance Abuse","Number",750
+"Manchester","0900344700","2016","DMHAS Admissions","Substance Abuse","Number",379
+"Mansfield","0901344910","2013","DMHAS Admissions","Substance Abuse","Number",56
+"Mansfield","0901344910","2014","DMHAS Admissions","Substance Abuse","Number",67
+"Mansfield","0901344910","2015","DMHAS Admissions","Substance Abuse","Number",68
+"Mansfield","0901344910","2016","DMHAS Admissions","Substance Abuse","Number",49
+"Marlborough","0900345820","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Marlborough","0900345820","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Marlborough","0900345820","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Marlborough","0900345820","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Meriden","0900946520","2013","DMHAS Admissions","Substance Abuse","Number",549
+"Meriden","0900946520","2014","DMHAS Admissions","Substance Abuse","Number",1172
+"Meriden","0900946520","2015","DMHAS Admissions","Substance Abuse","Number",1153
+"Meriden","0900946520","2016","DMHAS Admissions","Substance Abuse","Number",550
+"Middlebury","0900946940","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Middlebury","0900946940","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Middlebury","0900946940","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Middlebury","0900946940","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Middlefield","0900747080","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Middlefield","0900747080","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Middlefield","0900747080","2015","DMHAS Admissions","Substance Abuse","Number",19
+"Middlefield","0900747080","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Middletown","0900747360","2013","DMHAS Admissions","Substance Abuse","Number",707
+"Middletown","0900747360","2014","DMHAS Admissions","Substance Abuse","Number",1494
+"Middletown","0900747360","2015","DMHAS Admissions","Substance Abuse","Number",1331
+"Middletown","0900747360","2016","DMHAS Admissions","Substance Abuse","Number",787
+"Milford","0900947535","2013","DMHAS Admissions","Substance Abuse","Number",224
+"Milford","0900947535","2014","DMHAS Admissions","Substance Abuse","Number",469
+"Milford","0900947535","2015","DMHAS Admissions","Substance Abuse","Number",441
+"Milford","0900947535","2016","DMHAS Admissions","Substance Abuse","Number",262
+"Monroe","0900148620","2013","DMHAS Admissions","Substance Abuse","Number",19
+"Monroe","0900148620","2014","DMHAS Admissions","Substance Abuse","Number",29
+"Monroe","0900148620","2015","DMHAS Admissions","Substance Abuse","Number",44
+"Monroe","0900148620","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Montville","0901148900","2013","DMHAS Admissions","Substance Abuse","Number",155
+"Montville","0901148900","2014","DMHAS Admissions","Substance Abuse","Number",243
+"Montville","0901148900","2015","DMHAS Admissions","Substance Abuse","Number",261
+"Montville","0901148900","2016","DMHAS Admissions","Substance Abuse","Number",133
+"Morris","0900549460","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Morris","0900549460","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Morris","0900549460","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Morris","0900549460","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Naugatuck","0900949950","2013","DMHAS Admissions","Substance Abuse","Number",261
+"Naugatuck","0900949950","2014","DMHAS Admissions","Substance Abuse","Number",581
+"Naugatuck","0900949950","2015","DMHAS Admissions","Substance Abuse","Number",618
+"Naugatuck","0900949950","2016","DMHAS Admissions","Substance Abuse","Number",321
+"New Britain","0900350440","2013","DMHAS Admissions","Substance Abuse","Number",1069
+"New Britain","0900350440","2014","DMHAS Admissions","Substance Abuse","Number",2429
+"New Britain","0900350440","2015","DMHAS Admissions","Substance Abuse","Number",2654
+"New Britain","0900350440","2016","DMHAS Admissions","Substance Abuse","Number",1370
+"New Canaan","0900150580","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"New Canaan","0900150580","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"New Canaan","0900150580","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"New Canaan","0900150580","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"New Fairfield","0900150860","2013","DMHAS Admissions","Substance Abuse","Number",29
+"New Fairfield","0900150860","2014","DMHAS Admissions","Substance Abuse","Number",47
+"New Fairfield","0900150860","2015","DMHAS Admissions","Substance Abuse","Number",113
+"New Fairfield","0900150860","2016","DMHAS Admissions","Substance Abuse","Number",41
+"New Hartford","0900551350","2013","DMHAS Admissions","Substance Abuse","Number",21
+"New Hartford","0900551350","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"New Hartford","0900551350","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"New Hartford","0900551350","2016","DMHAS Admissions","Substance Abuse","Number",29
+"New Haven","0900952070","2013","DMHAS Admissions","Substance Abuse","Number",2291
+"New Haven","0900952070","2014","DMHAS Admissions","Substance Abuse","Number",5197
+"New Haven","0900952070","2015","DMHAS Admissions","Substance Abuse","Number",5320
+"New Haven","0900952070","2016","DMHAS Admissions","Substance Abuse","Number",2636
+"Newington","0900352140","2013","DMHAS Admissions","Substance Abuse","Number",143
+"Newington","0900352140","2014","DMHAS Admissions","Substance Abuse","Number",280
+"Newington","0900352140","2015","DMHAS Admissions","Substance Abuse","Number",273
+"Newington","0900352140","2016","DMHAS Admissions","Substance Abuse","Number",179
+"New London","0901152350","2013","DMHAS Admissions","Substance Abuse","Number",833
+"New London","0901152350","2014","DMHAS Admissions","Substance Abuse","Number",1685
+"New London","0901152350","2015","DMHAS Admissions","Substance Abuse","Number",1463
+"New London","0901152350","2016","DMHAS Admissions","Substance Abuse","Number",745
+"New Milford","0900552630","2013","DMHAS Admissions","Substance Abuse","Number",209
+"New Milford","0900552630","2014","DMHAS Admissions","Substance Abuse","Number",429
+"New Milford","0900552630","2015","DMHAS Admissions","Substance Abuse","Number",457
+"New Milford","0900552630","2016","DMHAS Admissions","Substance Abuse","Number",265
+"Newtown","0900152980","2013","DMHAS Admissions","Substance Abuse","Number",89
+"Newtown","0900152980","2014","DMHAS Admissions","Substance Abuse","Number",216
+"Newtown","0900152980","2015","DMHAS Admissions","Substance Abuse","Number",205
+"Newtown","0900152980","2016","DMHAS Admissions","Substance Abuse","Number",136
+"Norfolk","0900553470","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Norfolk","0900553470","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Norfolk","0900553470","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Norfolk","0900553470","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Branford","0900953890","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Branford","0900953890","2014","DMHAS Admissions","Substance Abuse","Number",67
+"North Branford","0900953890","2015","DMHAS Admissions","Substance Abuse","Number",72
+"North Branford","0900953890","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"North Canaan","0900554030","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Canaan","0900554030","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Canaan","0900554030","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Canaan","0900554030","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Haven","0900954870","2013","DMHAS Admissions","Substance Abuse","Number",63
+"North Haven","0900954870","2014","DMHAS Admissions","Substance Abuse","Number",190
+"North Haven","0900954870","2015","DMHAS Admissions","Substance Abuse","Number",157
+"North Haven","0900954870","2016","DMHAS Admissions","Substance Abuse","Number",70
+"North Stonington","0901155500","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Stonington","0901155500","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Stonington","0901155500","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"North Stonington","0901155500","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Norwalk","0900156060","2013","DMHAS Admissions","Substance Abuse","Number",371
+"Norwalk","0900156060","2014","DMHAS Admissions","Substance Abuse","Number",974
+"Norwalk","0900156060","2015","DMHAS Admissions","Substance Abuse","Number",885
+"Norwalk","0900156060","2016","DMHAS Admissions","Substance Abuse","Number",377
+"Norwich","0901156270","2013","DMHAS Admissions","Substance Abuse","Number",851
+"Norwich","0901156270","2014","DMHAS Admissions","Substance Abuse","Number",1490
+"Norwich","0901156270","2015","DMHAS Admissions","Substance Abuse","Number",1436
+"Norwich","0901156270","2016","DMHAS Admissions","Substance Abuse","Number",663
+"Old Lyme","0901157040","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Old Lyme","0901157040","2014","DMHAS Admissions","Substance Abuse","Number",34
+"Old Lyme","0901157040","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Old Lyme","0901157040","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Old Saybrook","0900757320","2013","DMHAS Admissions","Substance Abuse","Number",24
+"Old Saybrook","0900757320","2014","DMHAS Admissions","Substance Abuse","Number",55
+"Old Saybrook","0900757320","2015","DMHAS Admissions","Substance Abuse","Number",29
+"Old Saybrook","0900757320","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Orange","0900957600","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Orange","0900957600","2014","DMHAS Admissions","Substance Abuse","Number",40
+"Orange","0900957600","2015","DMHAS Admissions","Substance Abuse","Number",15
+"Orange","0900957600","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Oxford","0900958300","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Oxford","0900958300","2014","DMHAS Admissions","Substance Abuse","Number",81
+"Oxford","0900958300","2015","DMHAS Admissions","Substance Abuse","Number",52
+"Oxford","0900958300","2016","DMHAS Admissions","Substance Abuse","Number",36
+"Plainfield","0901559980","2013","DMHAS Admissions","Substance Abuse","Number",157
+"Plainfield","0901559980","2014","DMHAS Admissions","Substance Abuse","Number",323
+"Plainfield","0901559980","2015","DMHAS Admissions","Substance Abuse","Number",341
+"Plainfield","0901559980","2016","DMHAS Admissions","Substance Abuse","Number",136
+"Plainville","0900360120","2013","DMHAS Admissions","Substance Abuse","Number",128
+"Plainville","0900360120","2014","DMHAS Admissions","Substance Abuse","Number",298
+"Plainville","0900360120","2015","DMHAS Admissions","Substance Abuse","Number",273
+"Plainville","0900360120","2016","DMHAS Admissions","Substance Abuse","Number",187
+"Plymouth","0900560750","2013","DMHAS Admissions","Substance Abuse","Number",63
+"Plymouth","0900560750","2014","DMHAS Admissions","Substance Abuse","Number",181
+"Plymouth","0900560750","2015","DMHAS Admissions","Substance Abuse","Number",213
+"Plymouth","0900560750","2016","DMHAS Admissions","Substance Abuse","Number",92
+"Pomfret","0901561030","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Pomfret","0901561030","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Pomfret","0901561030","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Pomfret","0901561030","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Portland","0900761800","2013","DMHAS Admissions","Substance Abuse","Number",48
+"Portland","0900761800","2014","DMHAS Admissions","Substance Abuse","Number",138
+"Portland","0900761800","2015","DMHAS Admissions","Substance Abuse","Number",171
+"Portland","0900761800","2016","DMHAS Admissions","Substance Abuse","Number",72
+"Preston","0901162150","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Preston","0901162150","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Preston","0901162150","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Preston","0901162150","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Prospect","0900962290","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Prospect","0900962290","2014","DMHAS Admissions","Substance Abuse","Number",41
+"Prospect","0900962290","2015","DMHAS Admissions","Substance Abuse","Number",53
+"Prospect","0900962290","2016","DMHAS Admissions","Substance Abuse","Number",22
+"Putnam","0901562710","2013","DMHAS Admissions","Substance Abuse","Number",68
+"Putnam","0901562710","2014","DMHAS Admissions","Substance Abuse","Number",188
+"Putnam","0901562710","2015","DMHAS Admissions","Substance Abuse","Number",209
+"Putnam","0901562710","2016","DMHAS Admissions","Substance Abuse","Number",64
+"Redding","0900163480","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Redding","0900163480","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Redding","0900163480","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Redding","0900163480","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Ridgefield","0900163970","2013","DMHAS Admissions","Substance Abuse","Number",29
+"Ridgefield","0900163970","2014","DMHAS Admissions","Substance Abuse","Number",32
+"Ridgefield","0900163970","2015","DMHAS Admissions","Substance Abuse","Number",43
+"Ridgefield","0900163970","2016","DMHAS Admissions","Substance Abuse","Number",23
+"Rocky Hill","0900365370","2013","DMHAS Admissions","Substance Abuse","Number",78
+"Rocky Hill","0900365370","2014","DMHAS Admissions","Substance Abuse","Number",100
+"Rocky Hill","0900365370","2015","DMHAS Admissions","Substance Abuse","Number",96
+"Rocky Hill","0900365370","2016","DMHAS Admissions","Substance Abuse","Number",47
+"Roxbury","0900565930","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Roxbury","0900565930","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Roxbury","0900565930","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Roxbury","0900565930","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salem","0901166210","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salem","0901166210","2014","DMHAS Admissions","Substance Abuse","Number",16
+"Salem","0901166210","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salem","0901166210","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Salisbury","0900566420","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salisbury","0900566420","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salisbury","0900566420","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Salisbury","0900566420","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Scotland","0901567400","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Scotland","0901567400","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Scotland","0901567400","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Scotland","0901567400","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Seymour","0900967610","2013","DMHAS Admissions","Substance Abuse","Number",70
+"Seymour","0900967610","2014","DMHAS Admissions","Substance Abuse","Number",223
+"Seymour","0900967610","2015","DMHAS Admissions","Substance Abuse","Number",237
+"Seymour","0900967610","2016","DMHAS Admissions","Substance Abuse","Number",93
+"Sharon","0900567960","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Sharon","0900567960","2014","DMHAS Admissions","Substance Abuse","Number",34
+"Sharon","0900567960","2015","DMHAS Admissions","Substance Abuse","Number",33
+"Sharon","0900567960","2016","DMHAS Admissions","Substance Abuse","Number",30
+"Shelton","0900168170","2013","DMHAS Admissions","Substance Abuse","Number",172
+"Shelton","0900168170","2014","DMHAS Admissions","Substance Abuse","Number",474
+"Shelton","0900168170","2015","DMHAS Admissions","Substance Abuse","Number",520
+"Shelton","0900168170","2016","DMHAS Admissions","Substance Abuse","Number",271
+"Sherman","0900168310","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Sherman","0900168310","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Sherman","0900168310","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Sherman","0900168310","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Simsbury","0900368940","2013","DMHAS Admissions","Substance Abuse","Number",22
+"Simsbury","0900368940","2014","DMHAS Admissions","Substance Abuse","Number",39
+"Simsbury","0900368940","2015","DMHAS Admissions","Substance Abuse","Number",77
+"Simsbury","0900368940","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Somers","0901369220","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Somers","0901369220","2014","DMHAS Admissions","Substance Abuse","Number",68
+"Somers","0901369220","2015","DMHAS Admissions","Substance Abuse","Number",49
+"Somers","0901369220","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Southbury","0900969640","2013","DMHAS Admissions","Substance Abuse","Number",19
+"Southbury","0900969640","2014","DMHAS Admissions","Substance Abuse","Number",107
+"Southbury","0900969640","2015","DMHAS Admissions","Substance Abuse","Number",127
+"Southbury","0900969640","2016","DMHAS Admissions","Substance Abuse","Number",25
+"Southington","0900370550","2013","DMHAS Admissions","Substance Abuse","Number",209
+"Southington","0900370550","2014","DMHAS Admissions","Substance Abuse","Number",511
+"Southington","0900370550","2015","DMHAS Admissions","Substance Abuse","Number",537
+"Southington","0900370550","2016","DMHAS Admissions","Substance Abuse","Number",296
+"South Windsor","0900371390","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"South Windsor","0900371390","2014","DMHAS Admissions","Substance Abuse","Number",42
+"South Windsor","0900371390","2015","DMHAS Admissions","Substance Abuse","Number",44
+"South Windsor","0900371390","2016","DMHAS Admissions","Substance Abuse","Number",37
+"Sprague","0901171670","2013","DMHAS Admissions","Substance Abuse","Number",20
+"Sprague","0901171670","2014","DMHAS Admissions","Substance Abuse","Number",20
+"Sprague","0901171670","2015","DMHAS Admissions","Substance Abuse","Number",47
+"Sprague","0901171670","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Stafford","0901372090","2013","DMHAS Admissions","Substance Abuse","Number",79
+"Stafford","0901372090","2014","DMHAS Admissions","Substance Abuse","Number",125
+"Stafford","0901372090","2015","DMHAS Admissions","Substance Abuse","Number",112
+"Stafford","0901372090","2016","DMHAS Admissions","Substance Abuse","Number",64
+"Stamford","0900173070","2013","DMHAS Admissions","Substance Abuse","Number",519
+"Stamford","0900173070","2014","DMHAS Admissions","Substance Abuse","Number",1282
+"Stamford","0900173070","2015","DMHAS Admissions","Substance Abuse","Number",1079
+"Stamford","0900173070","2016","DMHAS Admissions","Substance Abuse","Number",554
+"Sterling","0901573420","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Sterling","0901573420","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Sterling","0901573420","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Sterling","0901573420","2016","DMHAS Admissions","Substance Abuse","Number",32
+"Stonington","0901173770","2013","DMHAS Admissions","Substance Abuse","Number",83
+"Stonington","0901173770","2014","DMHAS Admissions","Substance Abuse","Number",136
+"Stonington","0901173770","2015","DMHAS Admissions","Substance Abuse","Number",152
+"Stonington","0901173770","2016","DMHAS Admissions","Substance Abuse","Number",76
+"Stratford","0900174190","2013","DMHAS Admissions","Substance Abuse","Number",258
+"Stratford","0900174190","2014","DMHAS Admissions","Substance Abuse","Number",617
+"Stratford","0900174190","2015","DMHAS Admissions","Substance Abuse","Number",618
+"Stratford","0900174190","2016","DMHAS Admissions","Substance Abuse","Number",240
+"Suffield","0900374540","2013","DMHAS Admissions","Substance Abuse","Number",18
+"Suffield","0900374540","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Suffield","0900374540","2015","DMHAS Admissions","Substance Abuse","Number",23
+"Suffield","0900374540","2016","DMHAS Admissions","Substance Abuse","Number",20
+"Thomaston","0900575730","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Thomaston","0900575730","2014","DMHAS Admissions","Substance Abuse","Number",47
+"Thomaston","0900575730","2015","DMHAS Admissions","Substance Abuse","Number",23
+"Thomaston","0900575730","2016","DMHAS Admissions","Substance Abuse","Number",44
+"Thompson","0901575870","2013","DMHAS Admissions","Substance Abuse","Number",19
+"Thompson","0901575870","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Thompson","0901575870","2015","DMHAS Admissions","Substance Abuse","Number",60
+"Thompson","0901575870","2016","DMHAS Admissions","Substance Abuse","Number",15
+"Tolland","0901376290","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Tolland","0901376290","2014","DMHAS Admissions","Substance Abuse","Number",-9999
+"Tolland","0901376290","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Tolland","0901376290","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Torrington","0900576570","2013","DMHAS Admissions","Substance Abuse","Number",598
+"Torrington","0900576570","2014","DMHAS Admissions","Substance Abuse","Number",1445
+"Torrington","0900576570","2015","DMHAS Admissions","Substance Abuse","Number",1497
+"Torrington","0900576570","2016","DMHAS Admissions","Substance Abuse","Number",856
+"Trumbull","0900177200","2013","DMHAS Admissions","Substance Abuse","Number",86
+"Trumbull","0900177200","2014","DMHAS Admissions","Substance Abuse","Number",179
+"Trumbull","0900177200","2015","DMHAS Admissions","Substance Abuse","Number",139
+"Trumbull","0900177200","2016","DMHAS Admissions","Substance Abuse","Number",98
+"Union","0901377830","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Union","0901377830","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Union","0901377830","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Union","0901377830","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Vernon","0901378250","2013","DMHAS Admissions","Substance Abuse","Number",118
+"Vernon","0901378250","2014","DMHAS Admissions","Substance Abuse","Number",302
+"Vernon","0901378250","2015","DMHAS Admissions","Substance Abuse","Number",308
+"Vernon","0901378250","2016","DMHAS Admissions","Substance Abuse","Number",144
+"Voluntown","0901178600","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Voluntown","0901178600","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Voluntown","0901178600","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Voluntown","0901178600","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Wallingford","0900978740","2013","DMHAS Admissions","Substance Abuse","Number",196
+"Wallingford","0900978740","2014","DMHAS Admissions","Substance Abuse","Number",432
+"Wallingford","0900978740","2015","DMHAS Admissions","Substance Abuse","Number",356
+"Wallingford","0900978740","2016","DMHAS Admissions","Substance Abuse","Number",199
+"Warren","0900579510","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Warren","0900579510","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Warren","0900579510","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Warren","0900579510","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Washington","0900579720","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Washington","0900579720","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Washington","0900579720","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Washington","0900579720","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Waterbury","0900980070","2013","DMHAS Admissions","Substance Abuse","Number",2137
+"Waterbury","0900980070","2014","DMHAS Admissions","Substance Abuse","Number",4692
+"Waterbury","0900980070","2015","DMHAS Admissions","Substance Abuse","Number",4831
+"Waterbury","0900980070","2016","DMHAS Admissions","Substance Abuse","Number",2674
+"Waterford","0901180280","2013","DMHAS Admissions","Substance Abuse","Number",133
+"Waterford","0901180280","2014","DMHAS Admissions","Substance Abuse","Number",273
+"Waterford","0901180280","2015","DMHAS Admissions","Substance Abuse","Number",250
+"Waterford","0901180280","2016","DMHAS Admissions","Substance Abuse","Number",134
+"Watertown","0900580490","2013","DMHAS Admissions","Substance Abuse","Number",132
+"Watertown","0900580490","2014","DMHAS Admissions","Substance Abuse","Number",303
+"Watertown","0900580490","2015","DMHAS Admissions","Substance Abuse","Number",274
+"Watertown","0900580490","2016","DMHAS Admissions","Substance Abuse","Number",162
+"Westbrook","0900781680","2013","DMHAS Admissions","Substance Abuse","Number",26
+"Westbrook","0900781680","2014","DMHAS Admissions","Substance Abuse","Number",39
+"Westbrook","0900781680","2015","DMHAS Admissions","Substance Abuse","Number",23
+"Westbrook","0900781680","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"West Hartford","0900382590","2013","DMHAS Admissions","Substance Abuse","Number",230
+"West Hartford","0900382590","2014","DMHAS Admissions","Substance Abuse","Number",410
+"West Hartford","0900382590","2015","DMHAS Admissions","Substance Abuse","Number",371
+"West Hartford","0900382590","2016","DMHAS Admissions","Substance Abuse","Number",181
+"West Haven","0900982870","2013","DMHAS Admissions","Substance Abuse","Number",384
+"West Haven","0900982870","2014","DMHAS Admissions","Substance Abuse","Number",791
+"West Haven","0900982870","2015","DMHAS Admissions","Substance Abuse","Number",929
+"West Haven","0900982870","2016","DMHAS Admissions","Substance Abuse","Number",462
+"Weston","0900183430","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Weston","0900183430","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Weston","0900183430","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Weston","0900183430","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Westport","0900183500","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Westport","0900183500","2014","DMHAS Admissions","Substance Abuse","Number",18
+"Westport","0900183500","2015","DMHAS Admissions","Substance Abuse","Number",25
+"Westport","0900183500","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Wethersfield","0900384900","2013","DMHAS Admissions","Substance Abuse","Number",106
+"Wethersfield","0900384900","2014","DMHAS Admissions","Substance Abuse","Number",224
+"Wethersfield","0900384900","2015","DMHAS Admissions","Substance Abuse","Number",288
+"Wethersfield","0900384900","2016","DMHAS Admissions","Substance Abuse","Number",93
+"Willington","0901385950","2013","DMHAS Admissions","Substance Abuse","Number",-9999
+"Willington","0901385950","2014","DMHAS Admissions","Substance Abuse","Number",19
+"Willington","0901385950","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Willington","0901385950","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Wilton","0900186370","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Wilton","0900186370","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Wilton","0900186370","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Wilton","0900186370","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Winchester","0900586440","2013","DMHAS Admissions","Substance Abuse","Number",131
+"Winchester","0900586440","2014","DMHAS Admissions","Substance Abuse","Number",293
+"Winchester","0900586440","2015","DMHAS Admissions","Substance Abuse","Number",310
+"Winchester","0900586440","2016","DMHAS Admissions","Substance Abuse","Number",147
+"Windham","0901586790","2013","DMHAS Admissions","Substance Abuse","Number",658
+"Windham","0901586790","2014","DMHAS Admissions","Substance Abuse","Number",1567
+"Windham","0901586790","2015","DMHAS Admissions","Substance Abuse","Number",1468
+"Windham","0901586790","2016","DMHAS Admissions","Substance Abuse","Number",678
+"Windsor","0900387000","2013","DMHAS Admissions","Substance Abuse","Number",86
+"Windsor","0900387000","2014","DMHAS Admissions","Substance Abuse","Number",210
+"Windsor","0900387000","2015","DMHAS Admissions","Substance Abuse","Number",230
+"Windsor","0900387000","2016","DMHAS Admissions","Substance Abuse","Number",124
+"Windsor Locks","0900387070","2013","DMHAS Admissions","Substance Abuse","Number",55
+"Windsor Locks","0900387070","2014","DMHAS Admissions","Substance Abuse","Number",119
+"Windsor Locks","0900387070","2015","DMHAS Admissions","Substance Abuse","Number",100
+"Windsor Locks","0900387070","2016","DMHAS Admissions","Substance Abuse","Number",54
+"Wolcott","0900987560","2013","DMHAS Admissions","Substance Abuse","Number",68
+"Wolcott","0900987560","2014","DMHAS Admissions","Substance Abuse","Number",178
+"Wolcott","0900987560","2015","DMHAS Admissions","Substance Abuse","Number",155
+"Wolcott","0900987560","2016","DMHAS Admissions","Substance Abuse","Number",117
+"Woodbridge","0900987700","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodbridge","0900987700","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodbridge","0900987700","2015","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodbridge","0900987700","2016","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodbury","0900587910","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodbury","0900587910","2014","DMHAS Admissions","Substance Abuse","Number",17
+"Woodbury","0900587910","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Woodbury","0900587910","2016","DMHAS Admissions","Substance Abuse","Number",-9999
+"Woodstock","0901588190","2013","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodstock","0901588190","2014","DMHAS Admissions","Substance Abuse","Number",-6666
+"Woodstock","0901588190","2015","DMHAS Admissions","Substance Abuse","Number",-9999
+"Woodstock","0901588190","2016","DMHAS Admissions","Substance Abuse","Number",-6666
