@@ -1,6 +1,6 @@
-Substance-Abuse
+Substance-Abuse-Treatment-Admissions
 
-[![Build Status](https://travis-ci.org/CT-Data-Collaborative/dmhas-admissions.svg?branch=master)](https://travis-ci.org/CT-Data-Collaborative/substance-abuse)
+[![Build Status](https://travis-ci.org/CT-Data-Collaborative/dmhas-admissions.svg?branch=master)](https://travis-ci.org/CT-Data-Collaborative/substance-abuse-treatment-admissions)
 
 Mental Health and Substance Abuse Treatment Admissions reports the number and rate of admissions to Mental Health and Substance Abuse programs.
 
