@@ -1,8 +1,8 @@
 {
-  "name": "substance-abuse",
+  "name": "substance-abuse-treatment-admissions",
   "datapackage_version": "1.0-beta.18",
-  "title": "Substance-Abuse",
-  "description": "Mental Health and Substance Abuse Treatment Admissions reports the number and rate of admissions to Mental Health and Substance Abuse programs.",
+  "title": "Substance-Abuse-Treatment-Admissions",
+  "description": "Substance Abuse Treatment Admissions reports the number and rate of admissions to Substance Abuse programs.",
   "version": "1.0",
   "licenses": [{
     "url": "http://opendatacommons.org/licenses/pddl/",
@@ -20,43 +20,54 @@
     "web": "http://ctdata.org"
   }],
   "contributor": [],
-  "resources": [
-    {
-      "path": "data/data.csv",
-      "format": "csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "Town",
-            "type": "string",
-            "dimension": false
-          },
-          {
-            "name": "FIPS",
-            "type": "string",
-            "dimension": false
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "dimension": false
-          },
-          {
-            "name": "Measure Type",
-            "type": "string",
-            "dimension": true
-          },
-          {
-            "name": "Variable",
-            "type": "string",
-            "dimension": true
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "dimension": false
+  "resources": [{
+    "path": "data/dmhas-admissions_substance-abuse.csv",
+    "format": "csv",
+    "schema": {
+      "fields": [{
+          "name": "Town",
+          "type": "string",
+          "dimension": false
+        }, {
+          "name": "FIPS",
+          "type": "string",
+          "dimension": false
+        }, {
+          "name": "Year",
+          "type": "string",
+          "dimension": false
+        }, {
+          "name": "Measure Type",
+          "type": "string",
+          "dimension": true, 
+          "constraints": {
+	          "enum": [
+	            "Number"
+	          ]
+	        }     
+        }, {
+          "name": "Admission Type",
+          "type": "string",
+          "dimension": true, 
+          "constraints": {
+	  	      "enum": [
+              "Substance Abuse"
+            ]
           }
-        ]
+        }, {
+          "name": "Variable",
+          "type": "string",
+          "dimension": true, 
+          "constraints": {
+	  	      "enum": [
+              "DMHAS Admissions"
+            ]
+          }           
+        }, {
+          "name": "Value",
+          "type": "number",
+          "dimension": false
+        }]
       }
     }
   ],
@@ -65,27 +76,27 @@
     "full_description": {
       "ckan_name": "Full Description",
       "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number and proportion of admissions for such Mental Health and Substance Abuse programs, the number of individuals admitted for both types of programs, as well as the total number of such admissions. Data is also available detailing the rate of admissions per 10,000 people in the population. Substance Abuse treatment admissions include admissions to both public and private programs. Mental Health Admission include only state funded or operated programs. All data is for residents 18 and older. Data is available for each town and for the state as a whole.",
-      "type": "string",
+      "type": "string"
     },
     "suppression": {
       "ckan_name": "Suppression",
-      "value": "",
+      "value": "Towns with less than 15 admissions were suppressed.",
       "type": "string"
     },
     "technical_notes": {
       "ckan_name": "Technical Notes",
       "value": "Years in this dataset reflect calendar years.",
-      "type": "string",
+      "type": "string"
     },
     "domain": {
       "ckan_name": "Domain",
       "value": "Health",
-      "type": "string",
+      "type": "string"
     },
     "subdomain": {
       "ckan_name": "Subdomain",
       "value": "Mental Health",
-      "type": "string",
+      "type": "string"
     },
     "geography": {
       "ckan_name": "Geography",
@@ -102,34 +113,98 @@
     },
     "years_in_catalog": {
       "ckan_name": "Years in Catalog",
-      "value": [],
-      "type": "array",
+      "value": ["2013", "2014", "2015", "2016"],
+      "type": "array"
     },
     "latest_year": {
       "ckan_name": "Latest Year Available",
-      "value": "2014",
-      "type": "string",
+      "value": "2016",
+      "type": "string"
     },
     "disabled_views": {
       "ckan_name": "Disabled Views",
       "value": [],
       "type": "array",
-      "constraings": {
+      "constraints": {
         "enum": ["map", "table", "bar", "line"]
       }
     },
     "units": {
       "ckan_name": "Units",
       "value": {
-        "Number": "",
-        "Percent": "%"
+        "Number": ""
       }
     },
-    "default": {},
+    "expected_number_of_geographies": {
+		  "ckan_name": "Expected Number of Unique Geographies",
+		  "value": 170,
+		  "type": "string"
+		},
+    "default": {
+      "ckan_name": "Default",
+		  "value": {
+		    "Measure Type": "Number",
+		  	"Town": "Andover",
+		  	"Year": ["2013"],
+		  	"Variable": "DMHAS Admissions", 
+		  	"Admission Type": "Substance Abuse"
+      },
+		  "type": "object"
+    },
+    "socrata": {
+      "ckan_name": "Socrata",
+      "value": "True",
+      "type": "string"
+    }
   },
-  "spot_tests": [],
+  "spot_checks": [
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Andover",
+        "Year": "2014",
+        "Variable": "DMHAS Admissions",
+        "Admission Type": "Substance Abuse",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": -6666
+      }
+    },
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Sharon",
+        "Year": "2013",
+        "Variable": "DMHAS Admissions",
+        "Admission Type": "Substance Abuse",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": -9999
+      }
+    },
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Waterbury",
+        "Year": "2016",
+        "Variable": "DMHAS Admissions",
+        "Admission Type": "Substance Abuse",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 2674
+      }
+    }
+  ],
   "dimension_groups": [
-    {'Measure Type': ''},
-    {'Variable': ''}
+    {"Admission Type": ["Substance Abuse"]}
   ]
 }
