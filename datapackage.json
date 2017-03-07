@@ -1,7 +1,7 @@
 {
-  "name": "substance-abuse",
+  "name": "substance-abuse-treatment-admissions",
   "datapackage_version": "1.0-beta.18",
-  "title": "Substance-Abuse",
+  "title": "Substance-Abuse-Treatment-Admissions",
   "description": "Substance Abuse Treatment Admissions reports the number and rate of admissions to Substance Abuse programs.",
   "version": "1.0",
   "licenses": [{
