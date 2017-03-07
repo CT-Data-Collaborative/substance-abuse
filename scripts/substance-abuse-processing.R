@@ -1,5 +1,4 @@
 library(dplyr)
-library(devtools)
 library(datapkg)
 
 ##################################################################
@@ -13,15 +12,8 @@ library(datapkg)
 sub_folders <- list.files()
 data_location <- grep("raw", sub_folders, value=T)
 path <- (paste0(getwd(), "/", data_location))
-#grabs all csvs (even not FISCIN data)
 all_csvs <- dir(path, recursive=T, pattern = ".csv") 
 raw_file <- read.csv(paste0(path, "/", all_csvs), stringsAsFactors=F, header=T)
-
-
-# unique_drugs <- unique(raw_file$PrimaryDrug)
-# unique_months <- unique(raw_file$AdmMonth)
-# unique_years <- unique(raw_file$AdmYear)
-# unique_towns <- unique(raw_file$Town)
 
 #subset raw data
 substance_abuse <- raw_file[,c('Town', 'AdmMonth', 'AdmYear', 'PrimaryDrug', 'AdmCount')]
@@ -29,8 +21,8 @@ substance_abuse <- raw_file[,c('Town', 'AdmMonth', 'AdmYear', 'PrimaryDrug', 'Ad
 #recode month column
 month_digits <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12")
 months <- factor(c("January", "February", "March", "April", "May", "June", "July", 
-                   "August", "September", "October", "November", "December"))  # Make this a factor
-substance_abuse$Month <- months[ match(substance_abuse$AdmMonth, month_digits) ]
+                   "August", "September", "October", "November", "December"))
+substance_abuse$Month <- months[match(substance_abuse$AdmMonth, month_digits)]
 substance_abuse$AdmMonth <- NULL
 
 substance_abuse$Month <- factor(substance_abuse$Month, levels = months)
@@ -58,23 +50,18 @@ total_CT <- total_CT %>%
   mutate(AdmCount_Year = sum(AdmCount))
 
 total_CT$Town <- "Connecticut"
-#total_CT <- total_CT[,c('Town', 'AdmYear', 'AdmCount_Year')]
 total_CT <- total_CT[!duplicated(total_CT), ]
 
 #add Connecticut totals to substance abuse 
-#substance_abuse$AdmCount <- NULL
 substance_abuse <- substance_abuse[!duplicated(substance_abuse), ]
-
 combine <- rbind(substance_abuse, total_CT)
-#unique_towns <- unique(combine$Town)
 
 #bring in FIPS
 town_fips_dp_URL <- 'https://raw.githubusercontent.com/CT-Data-Collaborative/ct-town-list/master/datapackage.json'
 town_fips_dp <- datapkg_read(path = town_fips_dp_URL)
 fips <- (town_fips_dp$data[[1]])
 
-
-#backfill years (to have complete list of towns+CT)
+#backfill years
 years <- c("2013",
            "2014",
            "2015",
