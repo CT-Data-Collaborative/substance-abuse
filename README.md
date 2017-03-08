@@ -2,7 +2,9 @@ Substance-Abuse-Treatment-Admissions
 
 [![Build Status](https://travis-ci.org/CT-Data-Collaborative/substance-abuse-treatment-admissions.svg?branch=master)](https://travis-ci.org/CT-Data-Collaborative/substance-abuse-treatment-admissions)
 
-Mental Health and Substance Abuse Treatment Admissions reports the number and rate of admissions to Mental Health and Substance Abuse programs.
+Substance Abuse Treatment Admissions reports the number and rate of admissions to Substance Abuse programs.
+
+Data Source: <https://data.ct.gov/Health-and-Human-Services/Admissions-to-DMHAS-Addiction-Treatment-by-Town-Ye/erbt-mpgb>
 
 ## License MIT
 
