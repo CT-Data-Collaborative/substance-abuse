@@ -9,6 +9,9 @@ library(datapkg)
 #
 ##################################################################
 
+#all blanks should be suppressed
+#all backfilled should be NAs
+
 sub_folders <- list.files()
 data_location <- grep("raw", sub_folders, value=T)
 path <- (paste0(getwd(), "/", data_location))
@@ -23,6 +26,7 @@ month_digits <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12")
 months <- factor(c("January", "February", "March", "April", "May", "June", "July", 
                    "August", "September", "October", "November", "December"))
 substance_abuse$Month <- months[match(substance_abuse$AdmMonth, month_digits)]
+
 substance_abuse$AdmMonth <- NULL
 
 substance_abuse$Month <- factor(substance_abuse$Month, levels = months)
@@ -33,28 +37,36 @@ substance_abuse$AdmCount[is.na(substance_abuse$AdmCount)] <- 0
 
 #creating total admission count for each year
 substance_abuse <- substance_abuse %>% 
-  group_by(Town,AdmYear) %>% 
-  mutate(AdmCount_Year = sum(AdmCount))
+  group_by(Town,AdmYear,Month) %>% 
+  mutate(AdmCount_Month = sum(AdmCount))
 
 #order data
-substance_abuse <- arrange(substance_abuse, Town, AdmYear)
+substance_abuse <- arrange(substance_abuse, Town, Month, AdmYear)
 
 #select pertinent columns
-substance_abuse <- substance_abuse[,c('Town', 'AdmYear', 'AdmCount', 'AdmCount_Year')]
+substance_abuse <- substance_abuse[,c('Town', 'AdmYear', 'AdmCount', 'Month', 'AdmCount_Month')]
 
 #create Connecticut totals for all years
-total_CT <- substance_abuse 
-
-total_CT <- total_CT %>% 
-  group_by(AdmYear) %>% 
-  mutate(AdmCount_Year = sum(AdmCount))
-
-total_CT$Town <- "Connecticut"
+total_CT <- substance_abuse [,c('Town', 'AdmYear', 'Month', 'AdmCount_Month')]
 total_CT <- total_CT[!duplicated(total_CT), ]
 
+total_CT <- total_CT %>% 
+  group_by(AdmYear, Month) %>% 
+  mutate(AdmCount_Year = sum(AdmCount_Month))
+
+total_CT <- total_CT [,c('Town', 'AdmYear', 'Month', 'AdmCount_Year')]
+
+total_CT$'Town' <- "Connecticut"
+
 #add Connecticut totals to substance abuse 
+substance_abuse <- substance_abuse [,c('Town', 'AdmYear', 'Month', 'AdmCount_Month')]
 substance_abuse <- substance_abuse[!duplicated(substance_abuse), ]
-combine <- rbind(substance_abuse, total_CT)
+
+colnames(substance_abuse) <- c('Town', 'Year', 'Month', 'AdmCount')
+colnames(total_CT) <- c('Town', 'Year', 'Month', 'AdmCount')
+total_CT <- as.data.frame(total_CT, stringsAsFactors=F)
+
+combine <- rbind(total_CT, substance_abuse)
 
 #bring in FIPS
 town_fips_dp_URL <- 'https://raw.githubusercontent.com/CT-Data-Collaborative/ct-town-list/master/datapackage.json'
@@ -69,11 +81,23 @@ years <- c("2013",
 
 backfill_years <- expand.grid(
   `Town` = unique(fips$`Town`),
-  `AdmYear` = years
+  `Year` = years
 )
 
-complete_town_list <- merge(combine, backfill_years, all=T)
-complete_town_list_with_FIPS <- merge(complete_town_list, fips, by = "Town", all=T)
+town_list <- merge(combine, backfill_years, all=T)
+
+#backfill months
+backfill_months <- expand.grid(
+  `Year` = years,
+  `Month` = months
+)
+
+complete_town_list <- merge(town_list, backfill_months, all=T)
+
+town_list_with_FIPS <- merge(complete_town_list, fips, by = "Town", all=T)
+
+
+town_list_with_FIPS <- arrange(town_list_with_FIPS, Year, Month, Town)
 
 #setting 0's back to NAs
 complete_town_list_with_FIPS$AdmCount_Year[complete_town_list_with_FIPS$AdmCount_Year == 0] <- NA
