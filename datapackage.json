@@ -37,6 +37,10 @@
           "type": "string",
           "dimension": false
         }, {
+          "name": "Month",
+          "type": "string",
+          "dimension": false
+        }, {
           "name": "Measure Type",
           "type": "string",
           "dimension": true, 
@@ -75,12 +79,12 @@
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
-      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number and proportion of admissions for such Mental Health and Substance Abuse programs, the number of individuals admitted for both types of programs, as well as the total number of such admissions. Data is also available detailing the rate of admissions per 10,000 people in the population. Substance Abuse treatment admissions include admissions to both public and private programs. Mental Health Admission include only state funded or operated programs. All data is for residents 18 and older. Data is available for each town and for the state as a whole.",
+      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number of admissions for such Substance Abuse programs. Substance Abuse treatment admissions include admissions to both public and private programs. All data is for residents 18 and older. Data is available for each month, for each town, and for the state as a whole. The town data is taken from the client’s admission record that is recorded in the DMHAS data system. Admission values of zero indicate no admissions were reported.",
       "type": "string"
     },
     "suppression": {
       "ckan_name": "Suppression",
-      "value": "Towns with less than 15 admissions were suppressed.",
+      "value": "Towns with less than 6 admissions are suppressed.",
       "type": "string"
     },
     "technical_notes": {
@@ -95,7 +99,7 @@
     },
     "subdomain": {
       "ckan_name": "Subdomain",
-      "value": "Mental Health",
+      "value": "Substance Abuse",
       "type": "string"
     },
     "geography": {
@@ -146,6 +150,7 @@
 		    "Measure Type": "Number",
 		  	"Town": "Andover",
 		  	"Year": ["2013"],
+		  	"Month": ["January"],
 		  	"Variable": "DMHAS Admissions", 
 		  	"Admission Type": "Substance Abuse"
       },
@@ -162,7 +167,8 @@
       "type": "$lookup",
       "filter": {
         "Town": "Andover",
-        "Year": "2014",
+        "Year": "2013",
+        "Month": "January",
         "Variable": "DMHAS Admissions",
         "Admission Type": "Substance Abuse",
         "Measure Type": "Number"
@@ -170,14 +176,31 @@
       "expected": {
         "type": "$match",
         "number type": "int",
-        "value": -6666
+        "value": 0
       }
     },
     {
       "type": "$lookup",
       "filter": {
-        "Town": "Sharon",
-        "Year": "2013",
+        "Town": "Connecticut",
+        "Year": "2015",
+        "Month": "June",
+        "Variable": "DMHAS Admissions",
+        "Admission Type": "Substance Abuse",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 5125
+      }
+    },
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Haddam",
+        "Year": "2015",
+        "Month": "May",
         "Variable": "DMHAS Admissions",
         "Admission Type": "Substance Abuse",
         "Measure Type": "Number"
@@ -187,24 +210,22 @@
         "number type": "int",
         "value": -9999
       }
-    },
-    {
-      "type": "$lookup",
-      "filter": {
-        "Town": "Waterbury",
-        "Year": "2016",
-        "Variable": "DMHAS Admissions",
-        "Admission Type": "Substance Abuse",
-        "Measure Type": "Number"
-      },
-      "expected": {
-        "type": "$match",
-        "number type": "int",
-        "value": 2674
-      }
     }
   ],
   "dimension_groups": [
-    {"Admission Type": ["Substance Abuse"]}
+    {"Admission Type": ["Substance Abuse"], 
+     "Month": ["January", 
+               "February", 
+               "March", 
+               "April", 
+               "May", 
+               "June", 
+               "July", 
+               "August", 
+               "September", 
+               "October", 
+               "November", 
+               "December"]
+    }
   ]
 }
