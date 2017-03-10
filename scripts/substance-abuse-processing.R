@@ -64,6 +64,7 @@ substance_abuse <- substance_abuse[!duplicated(substance_abuse), ]
 
 colnames(substance_abuse) <- c('Town', 'Year', 'Month', 'AdmCount')
 colnames(total_CT) <- c('Town', 'Year', 'Month', 'AdmCount')
+substance_abuse <- as.data.frame(substance_abuse, stringsAsFactors=F)
 total_CT <- as.data.frame(total_CT, stringsAsFactors=F)
 
 combine <- rbind(total_CT, substance_abuse)
@@ -73,63 +74,56 @@ town_fips_dp_URL <- 'https://raw.githubusercontent.com/CT-Data-Collaborative/ct-
 town_fips_dp <- datapkg_read(path = town_fips_dp_URL)
 fips <- (town_fips_dp$data[[1]])
 
-#backfill years
+#backfill years and months
 years <- c("2013",
            "2014",
            "2015",
            "2016")
 
-backfill_years <- expand.grid(
+backfill <- expand.grid(
   `Town` = unique(fips$`Town`),
-  `Year` = years
-)
-
-town_list <- merge(combine, backfill_years, all=T)
-
-#backfill months
-backfill_months <- expand.grid(
-  `Year` = years,
+  `Year` = years, 
   `Month` = months
 )
 
-complete_town_list <- merge(town_list, backfill_months, all=T)
+backfill$Town <- as.character(backfill$Town)
+backfill$Month <- as.character(backfill$Month)
+backfill$Year <- as.character(backfill$Year)
 
-town_list_with_FIPS <- merge(complete_town_list, fips, by = "Town", all=T)
+backfill <- arrange(backfill, Town)
 
+town_list <- merge(combine, backfill, all=T)
 
-town_list_with_FIPS <- arrange(town_list_with_FIPS, Year, Month, Town)
+town_list_with_FIPS <- merge(town_list, fips, by = "Town", all=T)
 
-#setting 0's back to NAs
-complete_town_list_with_FIPS$AdmCount_Year[complete_town_list_with_FIPS$AdmCount_Year == 0] <- NA
-
-#suppressing towns where values are less than 15
-complete_town_list_with_FIPS$AdmCount_Year[complete_town_list_with_FIPS$AdmCount_Year < 15] <- -9999
+#setting 0's back to -9999 to account for suppressed values
+town_list_with_FIPS$AdmCount[town_list_with_FIPS$AdmCount == 0] <- -9999
 
 #Create filtering columns
-complete_town_list_with_FIPS$Variable <- NA
-complete_town_list_with_FIPS$Variable <- "DMHAS Admissions"
+town_list_with_FIPS$Variable <- NA
+town_list_with_FIPS$Variable <- "DMHAS Admissions"
 
-complete_town_list_with_FIPS$`Admission Type` <- NA
-complete_town_list_with_FIPS$`Admission Type` <- "Substance Abuse"
+town_list_with_FIPS$`Admission Type` <- NA
+town_list_with_FIPS$`Admission Type` <- "Substance Abuse"
 
-complete_town_list_with_FIPS$`Measure Type` <- NA
-complete_town_list_with_FIPS$`Measure Type` <- "Number"
+town_list_with_FIPS$`Measure Type` <- NA
+town_list_with_FIPS$`Measure Type` <- "Number"
 
 #Select and reorder columns
-complete_town_list_with_FIPS <- complete_town_list_with_FIPS %>% 
-  select(`Town`, `FIPS`, `AdmYear`, `Variable`, `Admission Type`, `Measure Type`, `AdmCount_Year`)
+town_list_with_FIPS <- town_list_with_FIPS %>% 
+  select(`Town`, `FIPS`, `Year`, `Month`, `Variable`, `Admission Type`, `Measure Type`, `AdmCount`)
 
 #Rename columns
-colnames(complete_town_list_with_FIPS) <- c("Town", "FIPS", "Year", "Variable", "Admission Type", "Measure Type", "Value")
+colnames(town_list_with_FIPS) <- c("Town", "FIPS", "Year", "Month", "Variable", "Admission Type", "Measure Type", "Value")
 
 #Remove duplicates
-complete_town_list_with_FIPS <- complete_town_list_with_FIPS[!duplicated(complete_town_list_with_FIPS), ]
+town_list_with_FIPS <- town_list_with_FIPS[!duplicated(town_list_with_FIPS), ]
 
 #Write CSV
 write.table(
-  complete_town_list_with_FIPS,
+  town_list_with_FIPS,
   file.path(getwd(), "data", "dmhas-admissions_substance-abuse.csv"),
   sep = ",",
-  na = "-6666",
+  na = "0",
   row.names = F
 )
