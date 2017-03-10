@@ -112,7 +112,7 @@
     },
     "frequency": {
       "ckan_name": "Frequency",
-      "value": "Annual",
+      "value": "Monthly",
       "type": "string"
     },
     "years_in_catalog": {
