@@ -84,7 +84,7 @@ substance_abuse_backfill_fips <- substance_abuse_backfill_fips %>%
 #Write CSV
 write.table(
   substance_abuse_backfill_fips,
-  file.path(getwd(), "data", "dmhas-admissions_substance-abuse_2016.csv"),
+  file.path(getwd(), "data", "dmhas-admissions_substance-abuse.csv"),
   sep = ",",
   na = "-9999",
   row.names = F

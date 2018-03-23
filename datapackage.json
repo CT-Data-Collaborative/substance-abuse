@@ -79,7 +79,7 @@
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
-      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number of admissions for such Substance Abuse programs. Substance Abuse treatment admissions include admissions to both public and private programs. All data is for residents 18 and older. Data is available for each month, for each town, and for the state as a whole. The town data are taken from the client’s admission record that is recorded in the DMHAS data system. Admission values of zero indicate no admissions were reported.",
+      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number of admissions for such Substance Abuse programs. Substance Abuse treatment admissions include admissions to both public and private programs. All data is for residents 18 and older. Data are available for each month, for each town. The town data are taken from the client’s admission record that is recorded in the DMHAS data system. Admission values of zero indicate no admissions were reported.",
       "type": "string"
     },
     "suppression": {
