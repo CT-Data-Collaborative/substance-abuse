@@ -2,7 +2,7 @@
   "name": "substance-abuse-treatment-admissions",
   "datapackage_version": "1.0-beta.18",
   "title": "Substance Abuse Treatment Admissions",
-  "description": "Substance Abuse Treatment Admissions reports the number and rate of admissions to Substance Abuse programs.",
+  "description": "Substance Abuse Treatment Admissions reports the number of monthly admissions to Substance Abuse programs, as reported to the Connecticut Department of Mental Health and Addiction Services (DMHAS), and organized by town.",
   "version": "1.0",
   "licenses": [{
     "url": "http://opendatacommons.org/licenses/pddl/",
@@ -21,7 +21,7 @@
   }],
   "contributor": [],
   "resources": [{
-    "path": "data/dmhas-admissions_substance-abuse.csv",
+    "path": "data/dmhas-admissions_substance-abuse_2016.csv",
     "format": "csv",
     "schema": {
       "fields": [{
@@ -75,11 +75,11 @@
     }
   }
   ],
-  "last_modified": "03/06/17",
+  "last_modified": "03/23/18",
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
-      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number of admissions for such Substance Abuse programs. Substance Abuse treatment admissions include admissions to both public and private programs. All data is for residents 18 and older. Data is available for each month, for each town, and for the state as a whole. The town data is taken from the client’s admission record that is recorded in the DMHAS data system. Admission values of zero indicate no admissions were reported.",
+      "value": "The Connecticut Department of Mental Health and Addiction Services runs many programs providing services and support to those with Mental Health and/or Substance Abuse problems. This dataset reports the number of admissions for such Substance Abuse programs. Substance Abuse treatment admissions include admissions to both public and private programs. All data is for residents 18 and older. Data is available for each month, for each town, and for the state as a whole. The town data are taken from the client’s admission record that is recorded in the DMHAS data system. Admission values of zero indicate no admissions were reported.",
       "type": "string"
     },
     "suppression": {
@@ -141,14 +141,14 @@
     },
     "expected_number_of_geographies": {
       "ckan_name": "Expected Number of Unique Geographies",
-      "value": 170,
+      "value": 169,
       "type": "string"
     },
     "default": {
       "ckan_name": "Default",
       "value": {
         "Measure Type": "Number",
-        "Town": "Connecticut",
+        "Town": "Hartford",
         "Year": ["2016"],
         "Variable": "DMHAS Admissions", 
         "Admission Type": "Substance Abuse"
@@ -181,9 +181,9 @@
     {
       "type": "$lookup",
       "filter": {
-        "Town": "Connecticut",
-        "Year": "2015",
-        "Month": "June",
+        "Town": "Glastonbury",
+        "Year": "2016",
+        "Month": "December",
         "Variable": "DMHAS Admissions",
         "Admission Type": "Substance Abuse",
         "Measure Type": "Number"
@@ -191,9 +191,9 @@
       "expected": {
         "type": "$match",
         "number type": "int",
-        "value": 5125
+        "value": 0
       }
-    },
+    },    
     {
       "type": "$lookup",
       "filter": {
@@ -208,6 +208,22 @@
         "type": "$match",
         "number type": "int",
         "value": -9999
+      }
+    },    
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Ansonia",
+        "Year": "2014",
+        "Month": "July",
+        "Variable": "DMHAS Admissions",
+        "Admission Type": "Substance Abuse",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 54
       }
     }
     ],
