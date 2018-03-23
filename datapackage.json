@@ -159,6 +159,16 @@
       "ckan_name": "Socrata",
       "value": "True",
       "type": "string"
+    },
+    "socrata_url": {
+      "ckan_name": "Socrata Dataset URL",
+      "value": "https://data.ct.gov/Health-and-Human-Services/Admissions-to-DMHAS-Addiction-Treatment-by-Town-Ye/iyru-82zq",
+      "type": "string"
+    }, 
+    "socrata_dataset_name": {
+      "ckan_name": "Socrata Dataset Name",
+      "value": "Admissions to DMHAS Addiction Treatment by Town, Year, and Month",
+      "type": "string"
     }
   },
   "spot_checks": [
